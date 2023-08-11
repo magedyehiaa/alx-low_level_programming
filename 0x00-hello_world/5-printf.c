@@ -2,11 +2,11 @@
 /**
   * main - Entry point
   *
-  * Description: 'showng what printf can do megoo'
+  * Description: 'main function description printing a text mego'
   *
   * Return: Always 0 (Success)
   */
-int main(voin)
+int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
