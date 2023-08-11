@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc main.c -o cisfun | chmod +u cisfun
+gcc $CFILE -o cisfun | chmod +u cisfun
