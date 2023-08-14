@@ -2,7 +2,7 @@
 /**
   * main - Entry point
   *
-  * Description: 'reverse l alphabet mego'
+  * Description: 'printing with commas  mego'
   *
   * Return: Always 0 (Success)
   */

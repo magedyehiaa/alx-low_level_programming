@@ -1,8 +1,8 @@
-#include <studio.h>
+#include <stdio.h>
 /**
   * main - Entry point
   *
-  * Description: 'main function description printing a text mego'
+  * Description: 'hecegonallll  a text mego'
   *
   * Return: Always 0 (Success)
   */
@@ -14,7 +14,7 @@ while (maged <= 102)
 putchar(maged);
 if (maged == 57)
 maged += 39;
-maged++
+maged++;
 }
 putchar('\n');
 return (0);
