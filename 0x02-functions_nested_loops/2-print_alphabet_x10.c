@@ -10,6 +10,6 @@ for (m = '0'; m <= 9; m++)
 {
 for (a = 'a'; a <= 'z'; a++)
 	_putchar(a);
-_putchar('\n')
+ _putchar('\n');
 }
 }
