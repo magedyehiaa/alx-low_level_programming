@@ -9,5 +9,4 @@ int M;
 for (M = 'a'; M <= 'z'; M++)
 _putchar(M);
 _putchar('\n');
-return (0);
 }
