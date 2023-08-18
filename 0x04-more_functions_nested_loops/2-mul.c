@@ -8,6 +8,5 @@
  */
 int mul(int m, int a)
 {
-printf("%d" * "%d", m, a)
-return (0);
+return (m * a);
 }
