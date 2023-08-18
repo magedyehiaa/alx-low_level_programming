@@ -19,5 +19,5 @@ n = c % 10;
 }
 _putchar(n + 48);
 }
-_putchar('n');
+_putchar('\n');
 }
