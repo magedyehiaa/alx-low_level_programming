@@ -11,8 +11,8 @@ for (N = 0; N <= 9; N++)
 {
 if (N == 2 || N == 4)
 continue;
-_putchar(N + 48);
+putchar(N + 48);
 }
-_putchar('\n');
+putchar('\n');
 return (0);
 }
