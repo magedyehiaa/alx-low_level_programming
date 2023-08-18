@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+ * _isdigit -  what is digit, M E G O.
+ *
+ * @c: input of digit
+ * Return: 1 if digit 0 if else.
+ */
+int _isdigit(int c)
+{
+if (c >= 48 && c < 58)
+return (1);
+else
+return (0);
+}
