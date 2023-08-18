@@ -14,6 +14,6 @@ else
 {
 for (s = 1; s <= n; s++)
 _putchar('_');
-_putchar('_')
+_putchar('\n')
 }
 }
