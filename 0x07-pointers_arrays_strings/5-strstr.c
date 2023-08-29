@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strstr -  function finds the first occurrence of the substring M E G O0
  * @needle: substring input
@@ -11,10 +12,9 @@ char *_strstr(char *haystack, char *needle)
 {
 char haystack;
 char needle;
-for(; haystack != '\0'; haystack++)
+for (; *haystack != '\0'; haystack++)
 {
-
-while (haystack == needle && needle != '\0')
+while (*haystack == needle && needle != '\0')
 {
 haystack++;
 needle++;
@@ -22,5 +22,5 @@ needle++;
 if (needle == '\0')
 return (haystack);
 }
- return (NULL);
+return (NULL);
 }
