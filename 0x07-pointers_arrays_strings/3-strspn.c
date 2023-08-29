@@ -1,0 +1,20 @@
+#include "main.h"
+/**
+ * _strspn - get l M E G O O 0
+ * @s: string
+ * @accept: for bytes
+ * Return: unsigned integer
+ */
+unsigned int _strspn(char *s, char *accept)
+{
+unsigned ind ed, ye;
+for (ed = 0; s[ed] != '\0'; ed++)
+{
+for (ye = 0; accept[ye] != s[ed]; ye++)
+{
+if (accept[ye] == '\0')
+return (ed);
+}
+}
+return (ed);
+}

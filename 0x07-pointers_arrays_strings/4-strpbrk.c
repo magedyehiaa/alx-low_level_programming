@@ -1,0 +1,28 @@
+#include "main.h"
+/**
+ * _strpbrk - serch M E G O 0 O 0o
+ * @s: for string things
+ * @accept: to match tit
+ * Return: pointer to s or null if no bytes
+ */
+char *_strpbrk(char *s, char *accept)
+{
+int ed, ye;
+char *o;
+ed = 0;
+while (s[ed] != '\0')
+{
+ye = 0;
+while (accept[ye] != '\0')
+{
+if (accept[ye] == s[ed])
+{
+o = &s[ed]
+return (o);
+}
+ye++;
+}
+ed++;
+}
+return (0);
+}
