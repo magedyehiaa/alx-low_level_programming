@@ -2,18 +2,17 @@
 
 /**
  * *_memset - fil memory with con byte
- * @m: pointer for con
- * @a: con
- * @g: mx byte
- * Return: pointer m
+ * @s: pointer for con
+ * @b: con
+ * @n: mx byte
+ * Return: pointer s
  */
-
-char *_memcpy(char *m, char a, unsigned int g)
+char *_memset(char *s, char b, unsigned int n);
 {
 unsigned int ed;
-for (ed = 0; g > 0; ed++, g--)
+for (ed = 0; n > 0; ed++, n--)
 {
-m[ed] = a;
+s[ed] = b;
 }
-return (m);
+return (s);
 }
