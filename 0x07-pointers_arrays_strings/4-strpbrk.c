@@ -17,7 +17,7 @@ while (accept[ye] != '\0')
 {
 if (accept[ye] == s[ed])
 {
-o = &s[ed]
+o = &s[ed];
 return (o);
 }
 ye++;
