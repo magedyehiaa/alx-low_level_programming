@@ -1,0 +1,18 @@
+#include "main.h"
+/**
+* *_memcpy - store in mem n M E G O
+* @dest: memory places
+* @src: also memory area
+* @n: max byt
+*
+* Return: dest
+*/
+
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+for (ed = 0; ed < n; ed++)
+{
+dest[ed] = src[ed];
+}
+return (dest);
+}
