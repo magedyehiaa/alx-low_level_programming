@@ -3,7 +3,7 @@
  * _strlen_recursion - lengh 2yas MEGOGG
  *
  * @s: pinter for length
- * @ma: lenght
+ *
  * Return: ma
  */
 int _strlen_recursion(char *s)
@@ -12,7 +12,7 @@ int ma = 0;
 
 if (*s > '\0')
 {
-ma += _strlen_recursion(s+1) + 1;
+ma += _strlen_recursion(s + 1) + 1;
 }
 return (ma);
 }
