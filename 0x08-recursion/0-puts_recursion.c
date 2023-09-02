@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _puts_recursion - print the string M E G O ....
- * @s: string 
- * Return: value 
+ * @s: string
+ * Return: value
  */
 void _puts_recursion(char *s)
 {
