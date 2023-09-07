@@ -1,13 +1,10 @@
 #include "main.h"
-#include <stdlib.h>
-#include <string.h>
 /**
  * *_memset - fil memory with con by M E G OoO
  * @s: pointer
  * @b: con
  * @n: mx by
  * Return: s
- *
  */
 void *_memset(char *s, char b, unsigned int n)
 {
