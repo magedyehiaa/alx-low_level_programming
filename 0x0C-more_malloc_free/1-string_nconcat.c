@@ -27,7 +27,7 @@ return (NULL);
 }
 for (a = 0; s1[a] != '\0'; a++)
 mag[a] = s1[a];
-for (b = 0; b <= n; b++)
+for (b = 0; b < n; b++)
 {
 mag[a] = s2[b];
 a++;
