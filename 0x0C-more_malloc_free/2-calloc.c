@@ -7,10 +7,10 @@
  * Return: s
  *
  */
-void *_memset(char *s, char b, unsigned int h)
+void *_memset(char *s, char b, unsigned int n)
 {
 char *m = s;
-while (h--)
+while (n--)
 *s++ = b;
 return (m);
 }
