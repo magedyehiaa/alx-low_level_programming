@@ -10,7 +10,7 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-char *mag
+char *mag;
 unsigned int a, b, s1le, s2len;
 if (s1 == NULL)
 s1 = "";
@@ -27,7 +27,7 @@ return (NULL);
 }
 for (a = 0; s1[a] != '\0'; a++)
 mag[a] = s1[a];
-for (b = 0; b < n; b++)
+for (b = 0; b <= n; b++)
 {
 mag[a] = s2[b];
 a++;
