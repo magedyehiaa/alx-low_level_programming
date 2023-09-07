@@ -6,7 +6,7 @@
  * *_memset - fil memory with con by M E G OoO
  * @s: pointer
  * @b: con
- * @h: mx by
+ * @n: mx by
  * Return: s
  *
  */
