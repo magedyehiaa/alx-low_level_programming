@@ -8,7 +8,7 @@
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-void *m;
+void *p;
 unsigned int i;
 if (new_size == old_size)
 return (ptr);
@@ -19,19 +19,21 @@ return (NULL);
 }
 if (ptr == NULL)
 {
-m = malloc(new_size);
-if (m == NULL)
+p = malloc(new_size);
+if (p == NULL)
+{
 return (NULL);
+}
 return (m);
 }
 if (new_size > old_size)
 {
-m = malloc(new_size);
-if (m == NULL)
+p = malloc(new_size);
+if (p == NULL)
 return (NULL);
 for (i = 0; i < old_size && i < new_size; i++)
-*((cahr *)m + i) = *((char *)ptr + i);
+*((cahr *)p + i) = *((char *)ptr + i);
 free(ptr);
 }
-return (m);
+return (p);
 }
