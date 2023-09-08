@@ -80,7 +80,7 @@ char *big_multiply(char *s1, char *s2)
 
 
 /**
- * main - multiply 
+ * main - multiply
  * @argc: arguments
  * @argv: vector
  *
