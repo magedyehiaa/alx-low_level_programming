@@ -1,32 +1,21 @@
 #include "main.h"
 /**
- * *_memset - fil memory with con by M E G OoO
- * @s: pointer
- * @b: con
- * @n: mx by
- * Return: s
- */
-void *_memset(char *s, char b, unsigned int n)
-{
-char *m = s;
-while (n--)
-*s++ = b;
-return (m);
-}
-/**
- * *_calloc - allocate memo for arr MeGoOo
- * @nmemb: array
- * @size: size MEme
- * Return: point
+ * _calloc - locate memo Me gO oO
+ * @nmemb: number
+ * @size: byte
+ *
+ * Return:pointer array
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-void *a;
-if (size == 0 || nmemb == 0)
+char *m;
+if (!nmemb || !size)
 return (NULL);
-a = malloc(sizeof(int) * nmemb);
-if (a == 0)
+m = malloc(nmemb * size);
+if (!m)
 return (NULL);
-_memset(a, 0, sizeof(int) * nmemb);
-return (a);
+nmemb *= size;
+while (nmemb--)
+m[nmemb] = 0;
+return (m);
 }

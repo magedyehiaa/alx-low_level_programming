@@ -4,6 +4,7 @@
  * @ptr: pointer
  * @old_size: size in by old
  * @new_size: size in by new
+ *
  * Return: Null or not null
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
@@ -21,10 +22,8 @@ if (ptr == NULL)
 {
 p = malloc(new_size);
 if (p == NULL)
-{
 return (NULL);
-}
-return (m);
+return (p);
 }
 if (new_size > old_size)
 {
