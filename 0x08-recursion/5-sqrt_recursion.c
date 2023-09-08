@@ -22,6 +22,6 @@ if (maged + maged == n)
 return (maged);
 else if (maged * maged < n)
 return (square(n, maged + 1));
-	else
+else if
 	return (-1);
 }
