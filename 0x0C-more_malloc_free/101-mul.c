@@ -1,20 +1,23 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
+
 /**
- * _isdigit - check digit M e GoO
- * @m: checked char GoDaO
+ * _isdigit - checks digit Me Go GoDa
+ * @c: cheacked chatr
  *
  * Return: 1 if digit, 0 otherwise
  */
-int _isdigit(int m)
+int _isdigit(int c)
 {
-	return (m >= '0' && m <= '9');
+	return (c >= '0' && c <= '9');
 }
 
 /**
- * _strlen - returns the length of a string
- * @s: the string whose length to check
+ * _strlen - length of a string
+ * @s: length to check
  *
- * Return: integer length of string
+ * Return: integer
  */
 int _strlen(char *s)
 {
@@ -26,16 +29,16 @@ int _strlen(char *s)
 }
 
 /**
- * big_multiply - multipl
- * @s1: first
- * @s2: secon
+ * big_multiply - multiply
+ * @s1: the first
+ * @s2: the second
  *
- * Return: the product big number string
+ * Return: the product
  */
 char *big_multiply(char *s1, char *s2)
 {
 	char *r;
-	int l1, l2, a, b, m, x;
+	int l1, l2, a, b, c, x;
 
 	l1 = _strlen(s1);
 	l2 = _strlen(s2);
@@ -64,44 +67,44 @@ char *big_multiply(char *s1, char *s2)
 			}
 			b = s2[l2] - '0';
 
-			m += r[l1 + l2 + 1] + (a * b);
-			r[l1 + l2 + 1] = m % 10;
+			c += r[l1 + l2 + 1] + (a * b);
+			r[l1 + l2 + 1] = c % 10;
 
-			m /= 10;
+			c /= 10;
 		}
-		if (m)
-			r[l1 + l2 + 1] += m;
+		if (c)
+			r[l1 + l2 + 1] += c;
 	}
 	return (r);
 }
 
 
 /**
- * main - multiply
+ * main - multiply 
  * @argc: arguments
  * @argv: vector
  *
- * Return: Always 0.
+ * Return: Always 0 on success.
  */
 int main(int argc, char **argv)
 {
 	char *r;
-	int a, m, x;
+	int a, c, x;
 
 	if (argc != 3)
 		printf("Error\n"), exit(98);
 
 	x = _strlen(argv[1]) + _strlen(argv[2]);
 	r = big_multiply(argv[1], argv[2]);
-	m = 0;
+	c = 0;
 	a = 0;
-	while (m < x)
+	while (c < x)
 	{
-		if (r[m])
+		if (r[c])
 			a = 1;
 		if (a)
-			_putchar(r[m] + '0');
-		m++;
+			_putchar(r[c] + '0');
+		c++;
 	}
 	if (!a)
 		_putchar('0');
