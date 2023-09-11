@@ -12,6 +12,6 @@ char *m = malloc(size);
 if (size == 0 || m == 0)
 return (0);
 while (size--)
-n[size] = c;
+m[size] = c;
 return (m);
 }
