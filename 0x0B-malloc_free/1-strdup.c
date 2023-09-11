@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * *_stedup - new allocated M E G oOo
+ * *_strdup - new allocated M E G oOo
  * @str: string
  * Return: 0
  */
-char *_stedup(char *str)
+char *_strdup(char *str)
 {
 int m = 0, size = 0;
 char *a;
