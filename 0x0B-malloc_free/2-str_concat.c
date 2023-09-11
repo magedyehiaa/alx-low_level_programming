@@ -28,7 +28,7 @@ s2 = "\0";
 size1 = _strlen(s1);
 size2 = _strlen(s2);
 z = malloc((size1 + size2) *sizeof(char) + 1);
-if (m == 0)
+if (z == 0)
 return (0);
 for (m = 0; m <= size1 + size2; m++)
 {
@@ -38,5 +38,5 @@ else
 	z[m] = s2[m - size1];
 }
 z[m] = '\0';
-return (m);
+return (z);
 }
