@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *create_array - array making
+ * *create_array - array making M e G OoO
  * @size: array size
  * @c: initilized char
  * Return: pointer if initilized or NULL
@@ -8,7 +8,7 @@
  */
 char *create_array(unsigned int size, char c)
 {
-cahr *m = malloc(size);
+char *m = malloc(size);
 if (size == 0 || m == 0)
 return (0);
 while (size--)
