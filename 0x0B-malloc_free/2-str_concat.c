@@ -27,10 +27,10 @@ if (s2 == NULL)
 s2 = "\0";
 size1 = _strlen(s1);
 size2 = _strlen(s2);
-z = malloc((size1 + size2) *sizeof(char) +1);
+z = malloc((size1 + size2) *sizeof(char) + 1);
 if (m == 0)
 return (0);
-for (m = 0; m <= size + size2; m++)
+for (m = 0; m <= size1 + size2; m++)
 {
 if (m < size1)
 	z[m] = s1[m];
