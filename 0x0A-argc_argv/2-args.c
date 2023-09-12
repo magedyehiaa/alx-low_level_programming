@@ -10,6 +10,7 @@
 int main(int argc, char **argv)
 {
 	int m;
+
 	m = 0;
 	while (m < argc)
 	{

@@ -8,6 +8,7 @@
 int main(int argc, char **argv __attribute__ ((unused)))
 {
 	int m;
+
 	m = 0;
 	while (argc--)
 		m++;
