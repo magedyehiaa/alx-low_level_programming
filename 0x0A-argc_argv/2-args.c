@@ -10,9 +10,8 @@
 int main(int argc, char **argv)
 {
 	int m;
-
 	m = 0;
-	while (i < argc)
+	while (m < argc)
 	{
 		printf("%s\n", argv[m]);
 		m++;
