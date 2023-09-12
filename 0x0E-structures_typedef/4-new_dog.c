@@ -2,17 +2,17 @@
 #include <stdlib.h>
 
 /**
- * new_dog - make new dog M Egoooo
- * @name: name
- * @age: age
+ * new_dog - creating
+ * @name: name megoooooz
+ * @age: age megoooz
  * @owner: owner
  * Return: void
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *m;
-		m = malloc(sizeof(dog_t));
-if (m == NULL)
+	m = malloc(sizeof(dog_t));
+	if (m == NULL)
 		return (NULL);
 	if (name == NULL)
 	{
@@ -30,4 +30,4 @@ if (m == NULL)
 	m->age = age;
 	m->owner = owner;
 	return (m);
-
+}
