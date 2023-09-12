@@ -1,19 +1,17 @@
-#ifndef DOG_H
-#define DOG_H
+#include "dog.h"
 /**
- * struct dog - dog str M EgOoO
- * @name: name
- * @age: age
- * @owner: owner
- * Description: sddwcd dwds
+ * init_dog - the init dog MeGoOo
+ * @d: init
+ * @name: the name
+ * @age: float age
+ * @owner: the owner name
+ * Return: voids
  */
-struct dog
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-char *name;
-float age;
-char *owner;
-};
-
-void init_dog(struct dog *d, char *name, float age, char *owner);
-
-#endif
+if (d)
+{
+d->name = name
+d->age = age
+d->owner = owner
+	}
