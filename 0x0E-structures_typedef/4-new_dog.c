@@ -21,8 +21,8 @@ int _strlen(char *m)
 }
 /**
  * _strcpy - copies the string with \0 to the buffer
- * @dest: pointer to dest
- * @src: pointer to string
+ * @d: pointer to dest
+ * @s: pointer to string
  *
  * Return: the pointer to dest
  *
@@ -30,7 +30,6 @@ int _strlen(char *m)
 char *_strcpy(char *d, char *s)
 {
 	int i;
-
 	i = 0;
 	while (*(s + i) != '\0')
 	{
@@ -49,7 +48,7 @@ char *_strcpy(char *d, char *s)
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	int ln, l_o;
+	int ln, lo;
 	struct dog *new_dog;
 
 	new_dog = malloc(sizeof(struct dog));
