@@ -9,13 +9,14 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-int m = 0, a = n
-va_list ap;
-if (!n)
-return (0);
-va_start(ap, n);
-while (a--)
-m += va_arg(ap, int);
-va_end(ap);
-return (m);
+	unsigned int m;
+	int sum;
+	va_list l;
+
+	va_start(list, n);
+	for (m = 0, sum = 0; m < n; m++)
+		sum += va_arg(l, int);
+
+	va_end(l;
+	return (sum);
 }
