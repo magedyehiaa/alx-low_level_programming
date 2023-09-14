@@ -2,9 +2,8 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - function wi
- * @n: int
- *
+ * sum_them_all - good way to cal all sum
+ * @n: integer 
  * Description: returns the sum of all its parameters Me HGOgoz
  * Return: value of sum or 0
  */
