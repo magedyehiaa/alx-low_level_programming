@@ -3,7 +3,7 @@
 
 /**
  * sum_them_all - good way to cal all sum
- * @n: integer 
+ * @n: integer
  * Description: returns the sum of all its parameters Me HGOgoz
  * Return: value of sum or 0
  */
