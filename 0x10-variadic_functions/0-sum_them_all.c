@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
-#include "variadic_function.h"
+#include "variadic_functions.h"
 /**
  * sum_them_all - sum all of it megooo
  * @n: co int
