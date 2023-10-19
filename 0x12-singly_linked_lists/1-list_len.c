@@ -1,4 +1,7 @@
 #include "lists.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 /**
  * list_len - lenth of ll
  * @h: first nod Me H o o Oo
