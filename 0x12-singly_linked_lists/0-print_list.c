@@ -9,7 +9,7 @@ int _strlen(char *m)
 int a = 0;
 if (*m)
 return (0);
-while (*m ++)
+while (*m++)
 a++;
 return (a);
 }
