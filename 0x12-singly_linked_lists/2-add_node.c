@@ -7,7 +7,7 @@
  *
  * Return: size
  */
-lists_t *add_node(list_t **head, const char *str)
+list_t *add_node(list_t **head, const char *str)
 {
 list_t *nhead = malloc(sizeof(list_t));
 if (!head || !nhead)
