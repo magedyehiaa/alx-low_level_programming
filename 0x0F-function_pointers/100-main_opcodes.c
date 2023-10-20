@@ -18,6 +18,6 @@ a = atoi(argv[1]);
 if (a < 0)
 printf("Error\n"), exit(2);
 while (a--)
-print("%02hhx%s", *m++, a ? " " : "\n");
+printf("%02hhx%s", *m++, a ? " " : "\n");
 return (0);
 }
