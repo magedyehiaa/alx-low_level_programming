@@ -2,7 +2,7 @@
 
 /**
  * main - checker
- * @argc: no args
+ * @argc: no of args
  * @argv: arguments for the func
  * Return: 0
  */
@@ -14,7 +14,7 @@ if (argc != 4)
 printf("Error\n"), exit(98);
 m = atoi(argv[1]);
 a = atoi(argv[3]);
-fun = getfun(argv[2]);
+fun = get_op_func(argv[2]);
 if (!fun)
 printf("Error\n"), exit(99);
 if (!a && (argv[2][0] == '/' || argv[2][0] == '%'))
