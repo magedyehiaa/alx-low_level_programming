@@ -46,7 +46,7 @@ return (a / b);
 }
 
 /**
- * op_add - mod
+ * op_mod - mod
  * @a: int1
  * @b: int2
  * Return: mod
