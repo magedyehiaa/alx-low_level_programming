@@ -13,8 +13,8 @@ return (a + b);
 
 /**
  * op_sub - minasing
- * @m: int1
- * @a: int2
+ * @a: int1
+ * @b: int2
  * Return: sub
  */
 int op_sub(int a, int b)
