@@ -5,16 +5,16 @@
  * Return: new list
  */
 
-int pop_listint(listint_t (**head))
+int pop_listint(listint_t **head)
 {
 listint_t *nde;
-int n = 0;
-if (!*head)
+int m;
+ if (*head == NULL)
 return (0);
 
-nde = (*head)->next;
+nde = *head
 n = (*head)->n
-free(*head);
-*head = nde;
+*head = (head)->next;
+free(nde);
 return (n);
 }
