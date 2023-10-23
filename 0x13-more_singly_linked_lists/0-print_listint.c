@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * print_listint - printing all elements " Megoo"
+ * print_listint - printing all elements "Megoo"
  * @h: first node
  * Return: no of modes as seen
  */
