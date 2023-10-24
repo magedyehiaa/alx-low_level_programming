@@ -20,6 +20,7 @@ struct listint_s *next;
 } listint_t;
 
 int _putchar(char c);
+const listint_t **_r(const listint_t **list, size_t size, const listint_t *new);
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
 listint_t *add_nodeint(listint_t **head, const int n);
