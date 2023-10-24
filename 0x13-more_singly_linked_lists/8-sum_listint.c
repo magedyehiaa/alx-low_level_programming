@@ -16,3 +16,4 @@ s += head->n;
 	head = head->next;
 	}
 return (s);
+}
