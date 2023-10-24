@@ -1,0 +1,17 @@
+#include "lists.h"
+
+/**
+ * get_nodeint_at_index - index node retirning
+ *
+ * @head: header
+ * @index: index
+ * Return: new node
+ */
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+{
+listint_t *new;
+unsigned int m;
+for (new = head, m = 0; new < index; new = new->next, m++)
+;
+return (new);
+}
