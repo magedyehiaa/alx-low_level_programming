@@ -23,6 +23,7 @@ free(list);
 exit(98);
 }
 for (m = 0; m < size - 1; m++)
+nlist[m] = list[m];
 nlist[m] = new;
 free(list);
 return (nlist);
