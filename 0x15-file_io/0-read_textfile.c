@@ -17,7 +17,7 @@ char buf[READ_BUF_SIZE * 8];
 
 if (!filename || !letters)
 return (0);
-m = open(filemame, O_RDONLY);
+m = open(filename, O_RDONLY);
 if (m == -1)
 return (0);
 a = read(m, &buf[0], letters);
